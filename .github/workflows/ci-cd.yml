@@ -18,7 +18,11 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 17
+          java-version: 17     
+                     
+      - name: 🔑 Dar permissão ao Maven Wrapper
+        run: chmod +x mvnw
+
 
       - name: 📦 Build com Maven
         run: ./mvnw clean package -DskipTests
