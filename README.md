@@ -87,4 +87,4 @@ Vinicius Barreto – YouTube
 
 👨‍💻 Autor
 
-Vinícius Barreto – Desenvolvedor Java/Kotlin e DevOps
+Vinícius Barreto – Desenvolvedor Java/Kotlin e DevOps.
