@@ -52,13 +52,15 @@ graph TD
 
 📸 Demonstração
 API
+![API](./assets/api.png)
 
 Prometheus
+![Prometheus](./assets/prometheus.png)
 
 Grafana
-
-
+![Grafana](./assets/grafana.png)
 
 ## 👤 Autor
 **Vinícius Barreto**  
-[LinkedIn](https://www.linkedin.com/in/vinicius-barreto) | [GitHub](https://github.com/Vinicius-Infra)
+[LinkedIn](https://www.linkedin.com/in/vinicius-barreto)  
+[GitHub](https://github.com/Vinicius-Infra)
