@@ -1,12 +1,14 @@
 # DevOps Docker API — Vinícius Barreto
 
-![Docker](https://img.shields.io/badge/Docker-blue?logo=docker)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+
+---
 
 ## 📌 Sobre o Projeto
-Este repositório contém uma API Node.js containerizada com Docker e orquestrada via **Docker Compose**.  
-O projeto faz parte do meu portfólio DevOps e demonstra práticas modernas de containerização, observabilidade e automação.
+Este repositório contém uma API Node.js containerizada com **Docker** e orquestrada via **Docker Compose**.  
+O projeto faz parte do meu portfólio DevOps e demonstra práticas modernas de containerização, monitoramento e automação.
 
 ---
 
@@ -19,22 +21,29 @@ O projeto faz parte do meu portfólio DevOps e demonstra práticas modernas de c
 
 ---
 
-## 🚀 Executando o Projeto
-Clone o repositório e suba os containers com Docker Compose:
+## 🚀 Como Executar
+
+Clone o repositório:
 
 ```bash
 git clone https://github.com/Vinicius-Infra/devops-docker-api.git
 cd devops-docker-api
+
+Suba os containers:
 docker compose up -d
 
-Acesse em:
+Pare os containers:
+docker compose down
 
-API → http://localhost:8081
+Acesse no navegador:
+
+API → http://localhost:8080
 
 Grafana → http://localhost:3000
 
 Prometheus → http://localhost:9090
 
+📊 Arquitetura do Projeto
 graph TD
     A[Usuário] -->|HTTP| B[API Node.js]
     B -->|Métricas| C[Prometheus]
@@ -42,14 +51,13 @@ graph TD
     B -->|Banco| E[Postgres]
 
 📸 Demonstração
+API
 
-✅ API rodando via Docker
+Prometheus
 
-✅ Painel de monitoramento no Grafana
+Grafana
 
-✅ CI/CD automatizado com GitHub Actions
 
-(Imagens/Screenshots podem ser adicionadas aqui futuramente)
 
 ## 👤 Autor
 **Vinícius Barreto**  
