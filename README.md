@@ -51,8 +51,6 @@ graph TD
 
 (Imagens/Screenshots podem ser adicionadas aqui futuramente)
 
-👤 Autor
-
-Vinícius Barreto
-LinkedIn
- | GitHub
+## 👤 Autor
+**Vinícius Barreto**  
+[LinkedIn](https://www.linkedin.com/in/vinicius-barreto) | [GitHub](https://github.com/Vinicius-Infra)
