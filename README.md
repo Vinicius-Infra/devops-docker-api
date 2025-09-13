@@ -51,6 +51,7 @@ graph TD
     C --> D[Grafana]
     B -->|Banco| E[Postgres]
 
+<<<<<<< HEAD
 # DevOps Docker API
 
 📸 Demonstração
