@@ -52,7 +52,8 @@ graph TD
     B -->|Banco| E[Postgres]
 
 📸 Demonstração
-API
+API<img width="1280" height="720" alt="grafana" src="https://github.com/user-attachments/assets/ecd15844-b940-499e-93b6-9576c96795fd" />
+
 <img width="919" height="349" alt="image" src="https://github.com/user-attachments/assets/d6ad5b93-da4f-44f6-a73f-16e3384ab2ce" />
 
 Prometheus
