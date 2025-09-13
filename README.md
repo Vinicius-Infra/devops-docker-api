@@ -53,10 +53,13 @@ graph TD
 
 📸 Demonstração
 API
+<img width="919" height="349" alt="image" src="https://github.com/user-attachments/assets/d6ad5b93-da4f-44f6-a73f-16e3384ab2ce" />
 
 Prometheus
+<img width="1176" height="505" alt="image" src="https://github.com/user-attachments/assets/323ab98e-d4a6-4879-a1ea-8e04e83640da" />
 
 Grafana
+<img width="1660" height="629" alt="image" src="https://github.com/user-attachments/assets/b2f15edb-2906-4764-96db-4ec9f527c549" />
 
 ## 👤 Autor
 **Vinícius Barreto**  
