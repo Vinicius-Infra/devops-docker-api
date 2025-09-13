@@ -51,16 +51,22 @@ graph TD
     B -->|Banco| E[Postgres]
 
     
+# DevOps Docker API — Vinícius Barreto
+
 📸 Demonstração
 
 ### API
-![API](https://github.com/Vinicius-Infra/devops-docker-api/raw/main/assets/api.png)
+![API](https://raw.githubusercontent.com/Vinicius-Infra/devops-docker-api/main/assets/api.png)
 
 ### Prometheus
-![Prometheus](https://github.com/Vinicius-Infra/devops-docker-api/raw/main/assets/prometheus.png)
+![Prometheus](https://raw.githubusercontent.com/Vinicius-Infra/devops-docker-api/main/assets/prometheus.png)
 
 ### Grafana
-![Grafana](https://github.com/Vinicius-Infra/devops-docker-api/raw/main/assets/grafana.png)
+![Grafana](https://raw.githubusercontent.com/Vinicius-Infra/devops-docker-api/main/assets/grafana.png)
 
-**Linkedin:** [Vinícius Barreto](https://www.linkedin.com/in/vinicius-barreto/)  
-**GitHub:** [Vinicius-Infra](https://github.com/Vinicius-Infra)
+---
+
+## Autor
+- [GitHub](https://github.com/Vinicius-Infra)
+- [LinkedIn](https://www.linkedin.com/in/vinicius-barreto/)
+- [YouTube](https://www.youtube.com/@ViniciusTechnology)
