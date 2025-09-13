@@ -1,59 +1,54 @@
-# DevOps Docker API — Vinícius Barreto
+# 🚀 DevOps Docker API — Vinícius Barreto  
 
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
-[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/)
-[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/)
+> Uma aplicação **Java/Kotlin** containerizada com **Docker**, monitorada com **Prometheus & Grafana** e integrada a **GitHub Actions** para CI/CD.  
+Parte do meu portfólio **DevOps** — focado em **containerização, automação e observabilidade**.  
 
 ---
 
-## 📌 Sobre o Projeto
-Este repositório contém uma API **Java/Kotlin** containerizada com **Docker**, orquestrada via **Docker Compose**, e monitorada com **Prometheus** e **Grafana**.  
-Faz parte do meu portfólio DevOps e demonstra boas práticas de **containerização, automação e monitoramento**.
+## 🛠️ Tecnologias Utilizadas  
+🔹 **Java/Kotlin** — Backend da aplicação  
+🔹 **Spring Boot** — Framework principal  
+🔹 **Docker & Docker Compose** — Containerização e orquestração  
+🔹 **Prometheus & Grafana** — Monitoramento e visualização  
+🔹 **GitHub Actions** — CI/CD automatizado  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-- **Java/Kotlin** – Backend da aplicação
-- **Spring Boot** – Framework principal
-- **Docker & Docker Compose** – Containerização e orquestração
-- **Prometheus & Grafana** – Monitoramento e visualização
-- **GitHub Actions** – CI/CD automatizado
+## ⚡ Como Executar  
 
----
-
-## 🚀 Como Executar
-
-Clone o repositório:
-
+📥 **Clone o repositório**  
 ```bash
 git clone https://github.com/Vinicius-Infra/devops-docker-api.git
 cd devops-docker-api
 
-Suba os containers:
+▶️ Suba os containers
 docker compose up -d
 
-Pare os containers:
+⏹️ Pare os containers
 docker compose down
 
-Acesse no navegador:
+🌐 Acessos Rápidos
+| 🌍 Serviço        | 🔗 URL Local                                   | 🔑 Credenciais Padrão |
+| ----------------- | ---------------------------------------------- | --------------------- |
+| ⚙️ **API**        | [http://localhost:8080](http://localhost:8080) | —                     |
+| 📊 **Grafana**    | [http://localhost:3000](http://localhost:3000) | admin / admin         |
+| 📡 **Prometheus** | [http://localhost:9090](http://localhost:9090) | —                     |
+| 🗄️ **Postgres**  | localhost:5432                                 | user / password       |
 
-API → http://localhost:8080
-
-Grafana → http://localhost:3000
-
-Prometheus → http://localhost:9090
-
+<<<<<<< HEAD
 ```mermaid
+=======
+🏗️ Arquitetura do Projeto
+>>>>>>> e797b4c (Finishing README)
 graph TD
-    A[Usuário] -->|HTTP| B[API Java/Kotlin]
-    B -->|Métricas| C[Prometheus]
-    C --> D[Grafana]
-    B -->|Banco| E[Postgres]
+    A[👤 Usuário] -->|HTTP| B[⚙️ API Java/Kotlin]
+    B -->|📈 Métricas| C[📡 Prometheus]
+    C --> D[📊 Grafana]
+    B -->|💾 Banco| E[🗄️ Postgres]
 
-    
-📸 Demonstração
+📜 Exemplos de Uso da API
 
+<<<<<<< HEAD
 ### API
 ![API](https://raw.githubusercontent.com/Vinicius-Infra/devops-docker-api/main/assets/api.png)
 
@@ -69,3 +64,34 @@ graph TD
 - [GitHub](https://github.com/Vinicius-Infra)
 - [LinkedIn](https://www.linkedin.com/in/vinicius-barreto/)
 - [YouTube](https://www.youtube.com/@ViniciusTechnology)
+=======
+🔍 Healthcheck
+curl http://localhost:8080/actuator/health
+
+✅ Resposta esperada:
+{"status":"UP"}
+
+📈 Métricas expostas para o Prometheus
+curl http://localhost:8080/actuator/prometheus
+
+📤 Saída (trecho):
+# HELP jvm_memory_used_bytes The amount of used memory
+# TYPE jvm_memory_used_bytes gauge
+jvm_memory_used_bytes{area="heap"} 4.5827776E7
+
+🔄 Fluxo CI/CD (GitHub Actions)
+flowchart LR
+    A[Commit] --> B[GitHub Actions]
+    B --> C[Build & Test]
+    C --> D[Docker Build]
+    D --> E[Push Image DockerHub]
+    E --> F[Deploy com Docker Compose]
+
+👨‍💻 Vinicius Barreto
+
+🌐 GitHub: https://github.com/Vinicius-Infra
+
+💼 LinkedIn: https://www.linkedin.com/in/vinicius-barreto/
+
+📺 YouTube: https://www.youtube.com/@ViniciusTechnology
+>>>>>>> e797b4c (Finishing README)
