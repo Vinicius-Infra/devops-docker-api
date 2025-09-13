@@ -52,15 +52,15 @@ graph TD
     B -->|Banco| E[Postgres]
 
 📸 Demonstração
-API<img width="1280" height="720" alt="grafana" src="https://github.com/user-attachments/assets/ecd15844-b940-499e-93b6-9576c96795fd" />
 
-<img width="919" height="349" alt="image" src="https://github.com/user-attachments/assets/d6ad5b93-da4f-44f6-a73f-16e3384ab2ce" />
+### API
+![API](https://github.com/Vinicius-Infra/devops-docker-api/raw/main/assets/api.png)
 
-Prometheus
-<img width="1176" height="505" alt="image" src="https://github.com/user-attachments/assets/323ab98e-d4a6-4879-a1ea-8e04e83640da" />
+### Prometheus
+![Prometheus](https://github.com/Vinicius-Infra/devops-docker-api/raw/main/assets/prometheus.png)
 
-Grafana
-<img width="1660" height="629" alt="image" src="https://github.com/user-attachments/assets/b2f15edb-2906-4764-96db-4ec9f527c549" />
+### Grafana
+![Grafana](https://github.com/Vinicius-Infra/devops-docker-api/raw/main/assets/grafana.png)
 
 ## 👤 Autor
 **Vinícius Barreto**  
