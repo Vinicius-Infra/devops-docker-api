@@ -1,21 +1,22 @@
 # DevOps Docker API — Vinícius Barreto
 
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/)
 
 ---
 
 ## 📌 Sobre o Projeto
-Este repositório contém uma API Node.js containerizada com **Docker** e orquestrada via **Docker Compose**.  
-O projeto faz parte do meu portfólio DevOps e demonstra práticas modernas de containerização, monitoramento e automação.
+Este repositório contém uma API **Java/Kotlin** containerizada com **Docker**, orquestrada via **Docker Compose**, e monitorada com **Prometheus** e **Grafana**.  
+Faz parte do meu portfólio DevOps e demonstra boas práticas de **containerização, automação e monitoramento**.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-- **Node.js** – Backend da aplicação
-- **Docker** – Containerização
-- **Docker Compose** – Orquestração de múltiplos containers
+- **Java/Kotlin** – Backend da aplicação
+- **Spring Boot** – Framework principal
+- **Docker & Docker Compose** – Containerização e orquestração
 - **Prometheus & Grafana** – Monitoramento e visualização
 - **GitHub Actions** – CI/CD automatizado
 
@@ -45,20 +46,15 @@ Prometheus → http://localhost:9090
 
 📊 Arquitetura do Projeto
 graph TD
-    A[Usuário] -->|HTTP| B[API Node.js]
+    A[Usuário] -->|HTTP| B[API Java/Kotlin]
     B -->|Métricas| C[Prometheus]
     C --> D[Grafana]
     B -->|Banco| E[Postgres]
+API
 
-📸 Demonstração
-### API
-![API](https://github.com/Vinicius-Infra/devops-docker-api/raw/main/assets/api.png)
+Prometheus
 
-### Prometheus
-![Prometheus](https://github.com/Vinicius-Infra/devops-docker-api/raw/main/assets/prometheus.png)
-
-### Grafana
-![Grafana](https://github.com/Vinicius-Infra/devops-docker-api/raw/main/assets/grafana.png)
+Grafana
 
 ## 👤 Autor
 **Vinícius Barreto**  
