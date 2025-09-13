@@ -44,6 +44,7 @@ Grafana → http://localhost:3000
 
 Prometheus → http://localhost:9090
 
+```mermaid
 graph TD
     A[Usuário] -->|HTTP| B[API Java/Kotlin]
     B -->|Métricas| C[Prometheus]
@@ -51,8 +52,6 @@ graph TD
     B -->|Banco| E[Postgres]
 
     
-# DevOps Docker API — Vinícius Barreto
-
 📸 Demonstração
 
 ### API
