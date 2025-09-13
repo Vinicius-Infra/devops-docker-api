@@ -50,6 +50,8 @@ graph TD
     B -->|Métricas| C[Prometheus]
     C --> D[Grafana]
     B -->|Banco| E[Postgres]
+
+📸 Demonstração
 API
 
 Prometheus
