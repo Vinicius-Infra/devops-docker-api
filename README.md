@@ -21,65 +21,57 @@ Parte do meu portfólio **DevOps** — focado em **containerização, automaçã
 git clone https://github.com/Vinicius-Infra/devops-docker-api.git
 cd devops-docker-api
 
+
 ▶️ Suba os containers
+
 docker compose up -d
 
+
 ⏹️ Pare os containers
+
 docker compose down
 
 🌐 Acessos Rápidos
-| 🌍 Serviço        | 🔗 URL Local                                   | 🔑 Credenciais Padrão |
-| ----------------- | ---------------------------------------------- | --------------------- |
-| ⚙️ **API**        | [http://localhost:8080](http://localhost:8080) | —                     |
-| 📊 **Grafana**    | [http://localhost:3000](http://localhost:3000) | admin / admin         |
-| 📡 **Prometheus** | [http://localhost:9090](http://localhost:9090) | —                     |
-| 🗄️ **Postgres**  | localhost:5432                                 | user / password       |
 
-<<<<<<< HEAD
-```mermaid
-=======
+🌍 Serviço	🔗 URL Local	🔑 Credenciais Padrão
+⚙️ API	http://localhost:8080
+	—
+📊 Grafana	http://localhost:3000
+	admin / admin
+📡 Prometheus	http://localhost:9090
+	—
+🗄️ Postgres	localhost:5432	user / password
+
 🏗️ Arquitetura do Projeto
->>>>>>> e797b4c (Finishing README)
 graph TD
     A[👤 Usuário] -->|HTTP| B[⚙️ API Java/Kotlin]
     B -->|📈 Métricas| C[📡 Prometheus]
     C --> D[📊 Grafana]
     B -->|💾 Banco| E[🗄️ Postgres]
 
+
 📜 Exemplos de Uso da API
 
-<<<<<<< HEAD
-### API
-![API](https://raw.githubusercontent.com/Vinicius-Infra/devops-docker-api/main/assets/api.png)
-
-### Prometheus
-![Prometheus](https://raw.githubusercontent.com/Vinicius-Infra/devops-docker-api/main/assets/prometheus.png)
-
-### Grafana
-![Grafana](https://raw.githubusercontent.com/Vinicius-Infra/devops-docker-api/main/assets/grafana.png)
-
----
-
-## Autor
-- [GitHub](https://github.com/Vinicius-Infra)
-- [LinkedIn](https://www.linkedin.com/in/vinicius-barreto/)
-- [YouTube](https://www.youtube.com/@ViniciusTechnology)
-=======
 🔍 Healthcheck
+
 curl http://localhost:8080/actuator/health
 
 ✅ Resposta esperada:
+
 {"status":"UP"}
 
 📈 Métricas expostas para o Prometheus
+
 curl http://localhost:8080/actuator/prometheus
 
 📤 Saída (trecho):
+
 # HELP jvm_memory_used_bytes The amount of used memory
 # TYPE jvm_memory_used_bytes gauge
 jvm_memory_used_bytes{area="heap"} 4.5827776E7
 
 🔄 Fluxo CI/CD (GitHub Actions)
+
 flowchart LR
     A[Commit] --> B[GitHub Actions]
     B --> C[Build & Test]
@@ -89,9 +81,8 @@ flowchart LR
 
 👨‍💻 Vinicius Barreto
 
-🌐 GitHub: https://github.com/Vinicius-Infra
+🌐 GitHub: Vinicius-Infra
 
-💼 LinkedIn: https://www.linkedin.com/in/vinicius-barreto/
+💼 LinkedIn: Vinícius Barreto
 
-📺 YouTube: https://www.youtube.com/@ViniciusTechnology
->>>>>>> e797b4c (Finishing README)
+📺 YouTube: Vinícius Technology
