@@ -79,10 +79,8 @@ flowchart LR
     D --> E[Push Image DockerHub]
     E --> F[Deploy com Docker Compose]
 
-👨‍💻 Vinicius Barreto
+👨‍💻 Vinícius Barreto  
 
-🌐 GitHub: Vinicius-Infra
-
-💼 LinkedIn: Vinícius Barreto
-
-📺 YouTube: Vinícius Technology
+🌐 [GitHub](https://github.com/Vinicius-Infra)  
+💼 [LinkedIn](https://www.linkedin.com/in/vinicius-barreto/)  
+📺 [YouTube](https://www.youtube.com/@ViniciusTechnology)
